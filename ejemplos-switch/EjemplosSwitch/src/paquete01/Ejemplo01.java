@@ -25,35 +25,35 @@ public class Ejemplo01 {
         
         switch(cadena){
             case "Lunes":
-                System.out.printf(" %s, es el primer dia  " + " de la semana ", cadena);
+                System.out.printf(" %s, es el primer dia  " + " de la semana\n ", cadena);
                 break;
             
             
             case "Martes":
             case "martes":
-                System.out.printf(" %s , es el segundo dia " + " de la semana ", cadena);
+                System.out.printf(" %s , es el segundo dia " + " de la semana\n ", cadena);
                 break;
             
             case "Miercoles":
-                System.out.printf(" %s, es el tercer dia  " + " de la semana ", cadena);
+                System.out.printf(" %s, es el tercer dia  " + " de la semana\n ", cadena);
                 break;
                 
             case "Jueves":
-                System.out.printf(" %s, es el cuarto dia  " + " de la semana ", cadena);
+                System.out.printf(" %s, es el cuarto dia  " + " de la semana\n ", cadena);
                 break;
                 
             case "Viernes":
             case "VIERNES":
             case "viernes":
-                System.out.printf(" %s, es el quinto dia " + " de la semana ", cadena);
+                System.out.printf(" %s, es el quinto dia " + " de la semana\n ", cadena);
                 break;
              
             case "Sabado":
-                System.out.printf(" %s, es el sexto dia  " + " de la semana ", cadena);
+                System.out.printf(" %s, es el sexto dia  " + " de la semana\n ", cadena);
                 break;
                 
             case "Domingo":
-                System.out.printf(" %s , ese el septimo dia " + " de la semana ", cadena);
+                System.out.printf(" %s , ese el septimo dia " + " de la semana\n ", cadena);
                 break;
             default:
                 System.out.println("ninguna de las anteriores");
